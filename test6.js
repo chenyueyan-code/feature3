@@ -65,7 +65,7 @@ function CWE_628() { // TOO_MANY_ARGS
     function add(x, y) {
         return x + y;
     }
-    var sum = add(1, 2, 3);
+    var sum = add(1, 2);
     console.log(sum);
 }
 
