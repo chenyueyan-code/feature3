@@ -11,7 +11,7 @@ function CWE_398() { // IDENTICAL_BRANCHES
     if (x >= 0) {
         y = x;
     } else {
-        y = x;
+        y = -x;
     }
 }
 
@@ -54,7 +54,6 @@ function CWE_489_569_570_571() { // CONSTANT_CONDITION
 }
 
 function CWE_561() { // UNREACHABLE_CODE
-    return;
 
     var bar = 1;
     console.log(bar);
@@ -75,6 +74,7 @@ function CWE_628() { // TOO_MANY_ARGS
 }
 
 function CWE_670(x) { // STRAY_SEMICOLON
+    var sum =0;
     while (++x <= 10) ;
     {
         sum += x;
