@@ -66,6 +66,7 @@ function CWE_563(url) { // UNUSED_VAR_ASSIGN
 }
 
 function CWE_628() { // TOO_MANY_ARGS
+    var sum = 0;
     function add(x, y) {
         return x + y;
     }
